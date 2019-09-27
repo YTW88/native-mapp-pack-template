@@ -12,6 +12,7 @@ android {
         ndk {
             abiFilters 'armeabi', 'x86', 'armeabi-v7a', 'x86_64'
         }
+        javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
 
         buildConfigField("String", "appId", "\"" + project.appId + "\"")
         buildConfigField("String", "appName", "\"" + project.appName + "\"")
