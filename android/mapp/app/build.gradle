@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId project.packageName
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            abiFilters 'armeabi', 'x86', 'armeabi-v7a', 'x86_64'
+        }
+
+        buildConfigField("String", "appId", "\"" + project.appId + "\"")
+        buildConfigField("String", "appName", "\"" + project.appName + "\"")
+
+    }
+    buildTypes {
+        debug {
+            manifestPlaceholders = [appName: project.appName]
+        }
+        release {
+            manifestPlaceholders = [appName: project.appName]
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    api 'com.ytw.sdk:mpsdk-full:' + project.sdkversion
+    annotationProcessor 'com.ytw.sdk:compiler:' + project.compilerversion
+
+    //
+    api 'com.android.support:multidex:1.0.3'
+    api 'com.android.support:multidex-instrumentation:1.0.3'
+
+
+}
