@@ -14,7 +14,7 @@ android {
         }
         javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
 
-        buildConfigField("String", "appId", "\"" + "MPSDK" + "\"")
+        buildConfigField("String", "appId", "\"" + project.appId + "\"")
         buildConfigField("String", "appName", "\"" + "MPSDK" + "\"")
 
     }
