@@ -9,8 +9,6 @@ def config = { path ->
 
 ext {
     p = config
-    compilerversion = p.getProperty('compilerversion')
-    sdkversion = p.getProperty('sdkversion')
     appId = p.getProperty('appId')
     packageName = p.getProperty('packageName')
     appName = p.getProperty('appName')
