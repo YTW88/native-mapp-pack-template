@@ -33,7 +33,7 @@
         
     // 设置是否开启域名白名单拦截功能
     config.isCheckHostValid = NO;
-
+ 
     // 初始化小程序SDK
     MPSDK *mpSDK = [MPSDK sharedInstance];
     [mpSDK initWithConfig:config];
