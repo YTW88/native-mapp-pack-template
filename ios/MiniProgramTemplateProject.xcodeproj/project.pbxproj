@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D319DD2340843A00345BA7 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D319DC2340843A00345BA7 /* Config.plist */; };
 		04DF907D233E043700101AA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF907C233E043700101AA4 /* AppDelegate.m */; };
 		04DF9083233E043700101AA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF9082233E043700101AA4 /* ViewController.m */; };
 		04DF9086233E043700101AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DF9084233E043700101AA4 /* Main.storyboard */; };
 		04DF9088233E043900101AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF9087233E043900101AA4 /* Assets.xcassets */; };
 		04DF908B233E043900101AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DF9089233E043900101AA4 /* LaunchScreen.storyboard */; };
 		04DF908E233E043900101AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF908D233E043900101AA4 /* main.m */; };
-		04DF9098233E043900101AA4 /* MiniProgramTemplateProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF9097233E043900101AA4 /* MiniProgramTemplateProjectTests.m */; };
-		04DF90A3233E043900101AA4 /* MiniProgramTemplateProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF90A2233E043900101AA4 /* MiniProgramTemplateProjectUITests.m */; };
 		04DF90B2233E050E00101AA4 /* MiniProgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF90B1233E050D00101AA4 /* MiniProgram.framework */; };
 		04DF90B4233E055700101AA4 /* MPRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04DF90B3233E055700101AA4 /* MPRes.bundle */; };
 		5C183558835EE535ECCCF61A /* libPods-MiniProgramTemplateProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D26491A207EC9FE1C848A8 /* libPods-MiniProgramTemplateProject.a */; };
@@ -38,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04D319DC2340843A00345BA7 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		04DF9078233E043700101AA4 /* MiniProgramTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniProgramTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF907B233E043700101AA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04DF907C233E043700101AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,11 +49,7 @@
 		04DF908C233E043900101AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DF908D233E043900101AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04DF9093233E043900101AA4 /* MiniProgramTemplateProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProgramTemplateProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04DF9097233E043900101AA4 /* MiniProgramTemplateProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniProgramTemplateProjectTests.m; sourceTree = "<group>"; };
-		04DF9099233E043900101AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DF909E233E043900101AA4 /* MiniProgramTemplateProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProgramTemplateProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04DF90A2233E043900101AA4 /* MiniProgramTemplateProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniProgramTemplateProjectUITests.m; sourceTree = "<group>"; };
-		04DF90A4233E043900101AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DF90B1233E050D00101AA4 /* MiniProgram.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MiniProgram.framework; sourceTree = "<group>"; };
 		04DF90B3233E055700101AA4 /* MPRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPRes.bundle; sourceTree = "<group>"; };
 		66093745EDD84CDA8A0D2776 /* Pods-MiniProgramTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProgramTemplateProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniProgramTemplateProject/Pods-MiniProgramTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				04DF907A233E043700101AA4 /* MiniProgramTemplateProject */,
-				04DF9096233E043900101AA4 /* MiniProgramTemplateProjectTests */,
-				04DF90A1233E043900101AA4 /* MiniProgramTemplateProjectUITests */,
 				04DF9079233E043700101AA4 /* Products */,
 				DF6BA66FBAE15B08DA09287C /* Pods */,
 				33C52C4D95CF44AB49F4954E /* Frameworks */,
@@ -122,27 +116,10 @@
 				04DF9087233E043900101AA4 /* Assets.xcassets */,
 				04DF9089233E043900101AA4 /* LaunchScreen.storyboard */,
 				04DF908C233E043900101AA4 /* Info.plist */,
+				04D319DC2340843A00345BA7 /* Config.plist */,
 				04DF908D233E043900101AA4 /* main.m */,
 			);
 			path = MiniProgramTemplateProject;
-			sourceTree = "<group>";
-		};
-		04DF9096233E043900101AA4 /* MiniProgramTemplateProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				04DF9097233E043900101AA4 /* MiniProgramTemplateProjectTests.m */,
-				04DF9099233E043900101AA4 /* Info.plist */,
-			);
-			path = MiniProgramTemplateProjectTests;
-			sourceTree = "<group>";
-		};
-		04DF90A1233E043900101AA4 /* MiniProgramTemplateProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04DF90A2233E043900101AA4 /* MiniProgramTemplateProjectUITests.m */,
-				04DF90A4233E043900101AA4 /* Info.plist */,
-			);
-			path = MiniProgramTemplateProjectUITests;
 			sourceTree = "<group>";
 		};
 		04DF90B0233E04FE00101AA4 /* MPSDK */ = {
@@ -278,6 +255,7 @@
 				04DF908B233E043900101AA4 /* LaunchScreen.storyboard in Resources */,
 				04DF9088233E043900101AA4 /* Assets.xcassets in Resources */,
 				04DF9086233E043700101AA4 /* Main.storyboard in Resources */,
+				04D319DD2340843A00345BA7 /* Config.plist in Resources */,
 				04DF90B4233E055700101AA4 /* MPRes.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DF9098233E043900101AA4 /* MiniProgramTemplateProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DF90A3233E043900101AA4 /* MiniProgramTemplateProjectUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +483,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytw88.MiniProgramTemplateProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytw88.MiniProgramtemplateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -529,7 +505,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytw88.MiniProgramTemplateProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytw88.MiniProgramtemplateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

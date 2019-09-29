@@ -19,7 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-     [[MPSDK sharedInstance] launchMain:@"66d3b2fd20"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Config"ofType:@"plist"];
+    NSDictionary *info = [NSDictionary dictionaryWithContentsOfFile:filePath];
+    NSString *appId = info[@"appId"];
+    [[MPSDK sharedInstance] launchMain:appId];
 }
 
 @end
