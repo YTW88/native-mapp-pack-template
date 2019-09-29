@@ -19,23 +19,6 @@
 		5C183558835EE535ECCCF61A /* libPods-MiniProgramTemplateProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D26491A207EC9FE1C848A8 /* libPods-MiniProgramTemplateProject.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		04DF9094233E043900101AA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04DF9070233E043700101AA4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04DF9077233E043700101AA4;
-			remoteInfo = MiniProgramTemplateProject;
-		};
-		04DF909F233E043900101AA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04DF9070233E043700101AA4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04DF9077233E043700101AA4;
-			remoteInfo = MiniProgramTemplateProject;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		04D319DC2340843A00345BA7 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		04DF9078233E043700101AA4 /* MiniProgramTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniProgramTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,8 +31,6 @@
 		04DF908A233E043900101AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DF908C233E043900101AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DF908D233E043900101AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04DF9093233E043900101AA4 /* MiniProgramTemplateProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProgramTemplateProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04DF909E233E043900101AA4 /* MiniProgramTemplateProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProgramTemplateProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF90B1233E050D00101AA4 /* MiniProgram.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MiniProgram.framework; sourceTree = "<group>"; };
 		04DF90B3233E055700101AA4 /* MPRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPRes.bundle; sourceTree = "<group>"; };
 		66093745EDD84CDA8A0D2776 /* Pods-MiniProgramTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProgramTemplateProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniProgramTemplateProject/Pods-MiniProgramTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,20 +45,6 @@
 			files = (
 				04DF90B2233E050E00101AA4 /* MiniProgram.framework in Frameworks */,
 				5C183558835EE535ECCCF61A /* libPods-MiniProgramTemplateProject.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04DF9090233E043900101AA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04DF909B233E043900101AA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				04DF9078233E043700101AA4 /* MiniProgramTemplateProject.app */,
-				04DF9093233E043900101AA4 /* MiniProgramTemplateProjectTests.xctest */,
-				04DF909E233E043900101AA4 /* MiniProgramTemplateProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,42 +134,6 @@
 			productReference = 04DF9078233E043700101AA4 /* MiniProgramTemplateProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04DF9092233E043900101AA4 /* MiniProgramTemplateProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04DF90AA233E043900101AA4 /* Build configuration list for PBXNativeTarget "MiniProgramTemplateProjectTests" */;
-			buildPhases = (
-				04DF908F233E043900101AA4 /* Sources */,
-				04DF9090233E043900101AA4 /* Frameworks */,
-				04DF9091233E043900101AA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04DF9095233E043900101AA4 /* PBXTargetDependency */,
-			);
-			name = MiniProgramTemplateProjectTests;
-			productName = MiniProgramTemplateProjectTests;
-			productReference = 04DF9093233E043900101AA4 /* MiniProgramTemplateProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		04DF909D233E043900101AA4 /* MiniProgramTemplateProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04DF90AD233E043900101AA4 /* Build configuration list for PBXNativeTarget "MiniProgramTemplateProjectUITests" */;
-			buildPhases = (
-				04DF909A233E043900101AA4 /* Sources */,
-				04DF909B233E043900101AA4 /* Frameworks */,
-				04DF909C233E043900101AA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04DF90A0233E043900101AA4 /* PBXTargetDependency */,
-			);
-			name = MiniProgramTemplateProjectUITests;
-			productName = MiniProgramTemplateProjectUITests;
-			productReference = 04DF909E233E043900101AA4 /* MiniProgramTemplateProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,14 +145,6 @@
 				TargetAttributes = {
 					04DF9077233E043700101AA4 = {
 						CreatedOnToolsVersion = 11.0;
-					};
-					04DF9092233E043900101AA4 = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 04DF9077233E043700101AA4;
-					};
-					04DF909D233E043900101AA4 = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 04DF9077233E043700101AA4;
 					};
 				};
 			};
@@ -241,8 +162,6 @@
 			projectRoot = "";
 			targets = (
 				04DF9077233E043700101AA4 /* MiniProgramTemplateProject */,
-				04DF9092233E043900101AA4 /* MiniProgramTemplateProjectTests */,
-				04DF909D233E043900101AA4 /* MiniProgramTemplateProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,20 +176,6 @@
 				04DF9086233E043700101AA4 /* Main.storyboard in Resources */,
 				04D319DD2340843A00345BA7 /* Config.plist in Resources */,
 				04DF90B4233E055700101AA4 /* MPRes.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04DF9091233E043900101AA4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04DF909C233E043900101AA4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,34 +213,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04DF908F233E043900101AA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04DF909A233E043900101AA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04DF9095233E043900101AA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04DF9077233E043700101AA4 /* MiniProgramTemplateProject */;
-			targetProxy = 04DF9094233E043900101AA4 /* PBXContainerItemProxy */;
-		};
-		04DF90A0233E043900101AA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04DF9077233E043700101AA4 /* MiniProgramTemplateProject */;
-			targetProxy = 04DF909F233E043900101AA4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		04DF9084233E043700101AA4 /* Main.storyboard */ = {
@@ -511,82 +389,6 @@
 			};
 			name = Release;
 		};
-		04DF90AB233E043900101AA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 835UHLRK6Z;
-				INFOPLIST_FILE = MiniProgramTemplateProjectTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytw88.MiniProgramTemplateProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniProgramTemplateProject.app/MiniProgramTemplateProject";
-			};
-			name = Debug;
-		};
-		04DF90AC233E043900101AA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 835UHLRK6Z;
-				INFOPLIST_FILE = MiniProgramTemplateProjectTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytw88.MiniProgramTemplateProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniProgramTemplateProject.app/MiniProgramTemplateProject";
-			};
-			name = Release;
-		};
-		04DF90AE233E043900101AA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 835UHLRK6Z;
-				INFOPLIST_FILE = MiniProgramTemplateProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytw88.MiniProgramTemplateProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MiniProgramTemplateProject;
-			};
-			name = Debug;
-		};
-		04DF90AF233E043900101AA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 835UHLRK6Z;
-				INFOPLIST_FILE = MiniProgramTemplateProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytw88.MiniProgramTemplateProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MiniProgramTemplateProject;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -604,24 +406,6 @@
 			buildConfigurations = (
 				04DF90A8233E043900101AA4 /* Debug */,
 				04DF90A9233E043900101AA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04DF90AA233E043900101AA4 /* Build configuration list for PBXNativeTarget "MiniProgramTemplateProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04DF90AB233E043900101AA4 /* Debug */,
-				04DF90AC233E043900101AA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04DF90AD233E043900101AA4 /* Build configuration list for PBXNativeTarget "MiniProgramTemplateProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04DF90AE233E043900101AA4 /* Debug */,
-				04DF90AF233E043900101AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
