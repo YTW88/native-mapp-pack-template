@@ -38,6 +38,11 @@
     MPSDK *mpSDK = [MPSDK sharedInstance];
     [mpSDK initWithConfig:config];
     
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Config"ofType:@"plist"];
+    NSDictionary *info = [NSDictionary dictionaryWithContentsOfFile:filePath];
+    NSString *appId = info[@"appId"];
+    [mpSDK launchMain:appId];
+    
     return YES;
 }
 
