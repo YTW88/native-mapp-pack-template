@@ -19,7 +19,7 @@ public class YApplication extends Application {
     public void onCreate() {
         super.onCreate();
         MPSDK.Config c = new MPSDK.Config(this);
-        c.setHost("https://mp.ytw88.com/");
+        c.setHost("http://mp.ytw88.com:8081/");
         c.setWindowManager(new LRUWindowManager(3, this));
         c.setWhiteListOpen(false);
         try {

@@ -36,8 +36,8 @@ android {
 }
 
 dependencies {
-    api 'com.ytw.sdk:mpsdk-full:1.0.101'
-    annotationProcessor 'com.ytw.sdk:compiler:1.0.96'
+    api 'com.ytw.sdk:mpsdk-full:1.0.106.26'
+    annotationProcessor 'com.ytw.sdk:compiler:1.0.101'
 
     //
     api 'com.android.support:multidex:1.0.3'

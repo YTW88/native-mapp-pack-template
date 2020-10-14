@@ -32,7 +32,13 @@ allprojects {
         google()
         jcenter()
         maven { url "https://jitpack.io" }
-        maven { url "http://nexus.ytw88.com:8080/repository/mpsdk/" }
+        maven {
+            credentials {
+                username '5f2a735f42509b3c32936563'
+                password 'PA)4SKnJa]uz'
+            }
+            url 'https://packages.aliyun.com/maven/repository/2021390-snapshot-UCuEhp/'
+        }
     }
 }
 
